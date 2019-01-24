@@ -7,8 +7,66 @@
     <title>Реєстрація</title>
 </head>
 <body>
-    <img src="reglogo.png" alt="Registration"></img><bz>
-    <h3>Щоб зареєструватись, Вам необхідно заповнити всі поля</h3>
-    <a href="https://hw25-vitaliynimko.c9users.io/index.html"><h1>Головна сторінка</h1></a>
+    <h1>Розіграш BMW M5 f90</h1>
+        <nav>
+            <button>
+                <a href="https://hw25-vitaliynimko.c9users.io/index.html">Головна сторінка</a>
+            </button>
+            <button>
+                <a href="https://hw25-vitaliynimko.c9users.io/reg.html">Реєстрація</h4></a>
+            </button>
+        </nav>
+    </header>  
+    <hr>
+    <img src="reghead.jpg" alt="Registration">
+    <h4>Щоб зареєструватись, Вам необхідно заповнити всі поля</h4>
+    <form method="POST" action=":">
+        <br>
+            <label for="name">Iм'я</label>
+            <br>
+            <input type="text" id="name" required name="username">
+        <br>
+        <br>
+            <label for="surname">Прізвище</label>
+            <br>
+            <input type="text" id="surname" required name="usersurname">
+        <br>
+        <br>
+            <label for="phone">Номер телефону</label>
+            <br>
+            <input type="text" id="phone" required name="phone">
+        <br>
+        <br>
+            <label for="male">Стать</label>
+            <br>
+            <input list="sex">
+                <datalist id="sex">
+                    <option>Чоловіча</option>
+                    <option>Жіноча</option>
+                </datalist>
+        <br>
+        <br>
+            <label for="date">Дата народження</label>
+            <br>
+            <input type="text" id="date" required name="date">
+        <br>
+        <br>
+            <label for="email">Електорнна пошта</label>
+            <br>
+            <input type="email" id="email" required name="usermail">
+        <br>
+        <br>
+            <label for="password">Пароль</label>
+            <br>
+            <input type="password" id="password" name="pasword"/>
+            <br>
+        <br>
+            <label for="photo">Завантажте Ваше фото</label>
+            <br>
+            <input type="file" id="photo" required name="photo" accept="image/*">
+        <br>
+            <br><br>
+        <input type="image" src="regbutton.jpg" alt="Registration" width="170" height="50" formtarget="_blank">
+    </form>
 </body>
 </html>
